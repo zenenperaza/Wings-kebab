@@ -13,8 +13,8 @@
 ```
 Template\plugins\slider-revolution
 ```
-## Se elimino la carpeta \Template\homepages
+## En \Template\homepages solo se usa /hotel
 
 ```
-\Template\homepages
+\Template\homepages\hotel
 ```
