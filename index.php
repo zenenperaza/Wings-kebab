@@ -16,26 +16,29 @@
 
     <style>
         div#topbar {
-    background-color: transparent;
-    border: 0px;
-}
-section.banner {
-    height: 500px;
-}
-img.img-center {
-    display: inherit;
-    float: left;
-    margin: 0 0 40px 0;
-    height: 160px;
-    width: 160px!important;
-    border-radius: 50%!important;
-    border: 10px solid gray;
+            background-color: transparent;
+            border: 0px;
+        }
+        div#topbar span {
+            font-size: larger;
+        }
+        section.banner {
+            height: 500px;
+        }
+        img.img-center {
+            display: inherit;
+            float: left;
+            margin: 0 0 40px 0;
+            height: 160px;
+            width: 160px!important;
+            border-radius: 50%!important;
+            border: 5px solid white;
 
-}
-section#page-content {
-    margin-top: -100px;
-    background-color: transparent;
-}
+        }
+        section#page-content {
+            margin-top: -100px;
+            background-color: transparent;
+        }
 
     </style>
 </head>
@@ -43,23 +46,54 @@ section#page-content {
 <body>
     <!-- Body Inner -->
     <div class="body-inner">
+    <div id="topbar" class="topbar-fullwidth d-none d-lg-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="top-menu">
+                            <li><a href="#"><span>Phone:  (469) 573-8201</span></a></li>
+                            <li><a href="#"> <span> Get directions</span> </a></li>
+                            <li><a href="#"> <span> Business hours</span> </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 d-none d-sm-block">
+                        <div class="social-icons social-icons-colored-hover">
+                            <ul>
+                                <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li class="social-google"><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li class="social-pinterest"><a href="#"><i class="fab fa-pinterest"></i></a></li>
+                                <li class="social-vimeo"><a href="#"><i class="fab fa-vimeo"></i></a></li>
+                                <li class="social-linkedin"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                <li class="social-dribbble"><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                <li class="social-youtube"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li class="social-rss"><a href="#"><i class="fa fa-rss"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <section id="page-title"  class="banner">
-            <div class="parallax-container img-loaded "  style="background: url(images/banner.jpg) 0px;" >
-                            <!-- Topbar -->
-                <div id="topbar" class="topbar-fullwidth d-none d-lg-block b-0">
+                  <!-- Topbar -->
+                   <!-- <div id="topbar" class="topbar-fullwidth d-none d-lg-block b-0">
                     <div class="container">
                                 <div class="row">
-                            <div class="col-md-12  d-flex justify-content-end text-light">
+                            <div class="col-md-12  d-flex justify-content-end ">
                                     <ul class="top-menu">
-                                    <li><a href="#">Phone: +1 (234) 567-890</a></li>
-                                    <li><a href="#">Email: contact@inspiro-media.com</a></li>
+                                    <li><a href="#"><span>Phone:  (469) 573-8201</span></a></li>
+                                    <li><a href="#"> <span> Get directions</span> </a></li>
+                                    <li><a href="#"> <span> Business hours</span> </a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                </div>
-        <!-- end: Topbar -->    
+                </div> -->
+        <!-- end: Topbar -->  
+
+        <section id="page-title"  class="banner">
+            <div class="parallax-container img-loaded "  style="background: url(images/banner.jpg) 0px;" >
+ 
   
         </div>
 
@@ -113,41 +147,52 @@ section#page-content {
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="icon-box medium fancy">
-                            <div class="icon"> <a href="#"><i class="fa fa-car"></i></a> </div>
-                            <h4>  </h4>
-                            <p>Why have Chicken wings become so popular? Likely because of the versatility of the food itself.Chicken Wings can be eaten as a quick snack on the go, an appetizer, or as a full meal, it took me many year’s  to introduce you the unique new way to cook and prepare WINGS  for our wings lovers:   WINGS KEBAB    </p>
+                            
+                        <h4>  </h4>
+                            <p>Why have Chicken wings become so popular? Likely because of the versatility of the food itself.
+                                 Chicken Wings can be eaten as a quick snack on the go, an appetizer, or as a full meal.  </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4">
+                        <div class="icon-box medium fancy">
+                            
+                        <h4>  </h4>
+                            <p> It took me many year’s  
+                                 to introduce you the unique new way to cook and prepare WINGS  for our wings lovers:   WINGS KEBAB   </p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="icon-box medium fancy">
-                            <div class="icon"> <a href="#"><i class="fa fa-heart"></i></a> </div>
-                            <p>Wings Kebab Tandoori/ Wings Kebab Hot& Spicy/Wings Kebab Original. We have Barbecue, Ranch dressing Sauce and chutney sauce. </p>
+                            
+                        <p>Wings Kebab Tandoori/ Wings Kebab Hot& Spicy/Wings Kebab Original. We have Barbecue, Ranch dressing Sauce and chutney sauce. </p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="icon-box medium fancy">
-                            <div class="icon"> <a href="#"><i class="far fa-lightbulb"></i></a> </div>
+                            
+
                             <p>I love Biryani Rice, I am introducing the unique twist to the delicious Biryani Rice and that is the: BIRYANI KEBAB.</p>
                         </div>
                     </div>
 
                     <div class="col-lg-4">
                         <div class="icon-box medium fancy">
-                            <div class="icon"> <a href="#"><i class="fa fa-phone"></i></a> </div>
-                            <h4> KEBABS</h4>
-                            <p>Chicken Kebab Biryani/ Beef Tikka or Shami Kebab Biryani Lamb or Mutton Kebab Biryani I have installed a Tandoor in my Restaurant to make fresh bread all day long..</p>
+                            
+                        <p>Chicken Kebab Biryani/ Beef Tikka or Shami Kebab Biryani Lamb or Mutton Kebab Biryani I have installed a Tandoor in my Restaurant to make fresh bread all day long..</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="icon-box medium fancy">
-                            <div class="icon"> <a href="#"><i class="fa fa-code"></i></a> </div>
+                            
+                        <h4> KEBABS</h4>
                             <p>Beef Seekh Kebab (Tikka) Beef Shami Kebab/Lamb/ Mutton Kebab Chicken Kebab      WINGS KEBAB </p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="icon-box medium fancy">
-                            <div class="icon"> <a href="#"><i class="fa fa-life-ring"></i></a> </div>
-                            <p>All our kebabs menu’s are included with rice, yogurt and salad(freshly chopped,Onion,Tomatoes,cucumber,parsley,Olives) and Freshly made Flat Bread.</p>
+                            
+                        <p>All our kebabs menu’s are included with rice, yogurt and salad(freshly chopped,Onion,Tomatoes,cucumber,parsley,Olives) and Freshly made Flat Bread.</p>
                         </div>
                     </div>
                 </div>
@@ -179,8 +224,8 @@ section#page-content {
                     <img src="images/image2.jpg">
                 </div>
                 <div class="team-desc">
-                    <h3>Victor Loda</h3>
-                    <span>Software Developer</span>
+                    <h3>Hakim Afzalzada</h3>
+                    <span>store owner</span>
                     <p>People’s will coming for more,COOK FRESH, USE FRESH, CHOP FRESH. </p>
              
                 </div>
@@ -193,23 +238,22 @@ section#page-content {
 
 <section>
     <div class="container">
-    <div class="heading-text heading-section text-center">
-        <h2>Location</h2>
-    </div>
+        <div class="heading-text heading-section text-center">
+            <h2>Location</h2>
+        </div>
+
         <div class="row">
-           
-               
-                    <div class="col-lg-6">
-        <h3 class="text-uppercase">Address &amp; Map</h3>
-                        <address>
-                            <strong>Polo Office</strong><br>
-                            795 Folsom Ave, Suite 600<br>
-                            San Francisco, CA 94107<br>
-                            <abbr title="Phone">P: (123) 456-7890
-                        </abbr></address>
-                    </div>
-               
-     
+            <div class="col-lg-6">
+                <h3 class="text-uppercase">Address &amp; Map</h3>
+                            <address>
+                                <strong>Polo Office</strong><br>
+                                795 Folsom Ave, Suite 600<br>
+                                San Francisco, CA 94107<br>
+                                <abbr title="Phone">P: (123) 456-7890
+                            </abbr></address>
+                
+                
+            </div>
             <div class="col-lg-6">
         
                 <!-- Google Map -->
@@ -222,90 +266,88 @@ section#page-content {
       
 
 <section class="" >
-            <div class="container">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <h2 class="m-b-10">Contact us</h2>
-                                <p class="lead">Our Headquarters are in Australia, USA, Europe, Asia, Africa </p>
-                            </div>
-                            <div class="col-lg-6 m-b-30">
-                                <address>
-                                     <strong>Headquarters:</strong><br>
-                                     795 Folsom Ave, Suite 600<br>
-                                     San Francisco, CA 94107<br>
-                                 </address>
-                                <strong>Phone:</strong> (+1) 1234 56789
-                                <br>
-                                <strong>Fax:</strong> (+1) 12 3456 78910
-                                <br>
-                                <strong>Email:</strong> info@inspiro-media.com
-                            </div>
-                            <div class="col-lg-6 m-b-30">
-                                <address>
-                                     <strong>Headquarters:</strong><br>
-                                     795 Folsom Ave, Suite 600<br>
-                                     San Francisco, CA 94107<br>
-                                 </address>
-                                <strong>Phone:</strong> (+1) 1234 56789
-                                <br>
-                                <strong>Fax:</strong> (+1) 12 3456 78910
-                                <br>
-                                <strong>Email:</strong> info@inspiro-media.com
-                            </div>
-                            <div class="col-lg-12 m-b-30">
-                                <h4>We are social</h4>
-                                <div class="social-icons social-icons-light social-icons-colored-hover">
-                                    <ul>
-                                        <li class="social-rss"><a href="#"><i class="fa fa-rss"></i></a></li>
-                                        <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li class="social-vimeo"><a href="#"><i class="fab fa-vimeo"></i></a></li>
-                                        <li class="social-youtube"><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                        <li class="social-instagram"><a href="#"><i class="fab fa-instagram"></i></a>
-                                        </li>
-                                        <li class="social-pinterest"><a href="#"><i class="fab fa-pinterest"></i></a>
-                                        </li>
-                                        <li class="social-gplus"><a href="#"><i class="fab fa-google-plus-g"></i></a>
-                                        </li>
-                                        <li class="social-dribbble"><a href="#"><i class="fab fa-dribbble"></i></a>
-                                        </li>
-                                        <li class="social-skype"><a href="#"><i class="fab fa-skype"></i></a></li>
-                                        <li class="social-linkedin"><a href="#"><i class="fab fa-linkedin"></i></a>
-                                        </li>
-                                        <li class="social-behance"><a href="#"><i class="fab fa-behance"></i></a></li>
-                                        <li class="social-flickr"><a href="#"><i class="fab fa-flickr"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-lg-12">
+                        <h2 class="m-b-10">Contact us</h2>
                     </div>
-                    <div class="col-lg-5 offset-1">
-                        <form class="widget-contact-form" novalidate="" action="include/contact-form.php" role="form" method="post">
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <label for="name">Name</label>
-                                    <input type="text" aria-required="true" required="" name="widget-contact-form-name" class="form-control required name" placeholder="Enter your Name">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="email">Email</label>
-                                    <input type="email" aria-required="true" required="" name="widget-contact-form-email" class="form-control required email" placeholder="Enter your Email">
-                                </div>
+                    <div class="col-lg-6 m-b-30">
+                        <address>
+                                <strong>Headquarters:</strong><br>
+                                141 W. Spring Creek Pkwy, suite<br>
+                                401 Plano, TX 75023 USA<br>
+                            </address>
+                        <strong>Phone:</strong> ( 469 ) 573-8201
+                        <br>
+                        <strong>Email:</strong> hakim.wingskebab@gmail.com
+
+                    </div>
+                    
+                    <div class="col-lg-6 m-b-30">
+                        <div>
+                                <strong>7 Days A Week</strong><br><br>
+                                Monday to Friday 11:00am - 9:00 pm<br><br>
+                                Saturday 11:00 am - 10:00 pm<br><br>
+                                Sunday 11:00 am - 10:00 pm
                             </div>
-                            <div class="form-group">
-                                <label for="message">Message</label>
-                                <textarea type="text" required="" name="widget-contact-form-message" rows="8" class="form-control required" placeholder="Enter your Message"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <button class="btn btn-light" type="submit" id="form-submit"><i class="fa fa-paper-plane"></i>&nbsp;Send message</button>
-                            </div>
-                        </form>
+                    
+
+                    </div>
+
+                    <div class="col-lg-12 m-b-30">
+                        <h4>We are social</h4>
+                        <div class="social-icons social-icons-light social-icons-colored-hover">
+                            <ul>
+                                <li class="social-rss"><a href="#"><i class="fa fa-rss"></i></a></li>
+                                <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li class="social-vimeo"><a href="#"><i class="fab fa-vimeo"></i></a></li>
+                                <li class="social-youtube"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                <li class="social-instagram"><a href="#"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li class="social-pinterest"><a href="#"><i class="fab fa-pinterest"></i></a>
+                                </li>
+                                <li class="social-gplus"><a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                </li>
+                                <li class="social-dribbble"><a href="#"><i class="fab fa-dribbble"></i></a>
+                                </li>
+                                <li class="social-skype"><a href="#"><i class="fab fa-skype"></i></a></li>
+                                <li class="social-linkedin"><a href="#"><i class="fab fa-linkedin"></i></a>
+                                </li>
+                                <li class="social-behance"><a href="#"><i class="fab fa-behance"></i></a></li>
+                                <li class="social-flickr"><a href="#"><i class="fab fa-flickr"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+            <div class="col-lg-5 offset-1">
+                <form class="widget-contact-form" novalidate="" action="include/contact-form.php" role="form" method="post">
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label for="name">Name</label>
+                            <input type="text" aria-required="true" required="" name="widget-contact-form-name" class="form-control required name" placeholder="Enter your Name">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="email">Email</label>
+                            <input type="email" aria-required="true" required="" name="widget-contact-form-email" class="form-control required email" placeholder="Enter your Email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea type="text" required="" name="widget-contact-form-message" rows="8" class="form-control required" placeholder="Enter your Message"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-light" type="submit" id="form-submit"><i class="fa fa-paper-plane"></i>&nbsp;Send message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
  
 
 
